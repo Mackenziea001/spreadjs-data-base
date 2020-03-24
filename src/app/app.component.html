@@ -1,0 +1,10 @@
+<div class="sample-tutorial">
+<gc-spread-sheets class="sample-spreadsheets" [hostStyle]="hostStyle" (workbookInitialized)="workbookInit($event)">
+  <gc-worksheet></gc-worksheet>
+</gc-spread-sheets>
+<div class="options-container">
+<div class="option-row">
+  <label style="background-color:lavender;">Click this button to set the data source for the data-bound table.</label>
+</div>
+  <input type="button" id="changeDataSource" value="Set DataSource" title="Toggle table binding's data source" />
+</div>
